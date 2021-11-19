@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:college" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b141b357-6e6c-493d-93e0-760e167b53da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../leetcode/practice/8/advance/java/first/src/PackAgeName/ClassName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode/practice/8/plain/Java/first/.idea/qaplug_profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode/practice/8/plain/Java/first/src/PackAge/ClassName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../leetcode/practice/8/plain/Java/second/src/PackAge/ClassName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Cpp1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Cpp1.dsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Cpp1.dsw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Cpp1.ncb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Cpp1.opt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Cpp1.plg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Debug/Cpp1.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Debug/Cpp1.ilk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Debug/Cpp1.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Debug/Cpp1.pch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Debug/Cpp1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Debug/vc60.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c++/Debug/vc60.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../c/test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c/test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../c/test.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../59/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../59/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../60/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../60/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../62/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../62/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../64/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../64/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/$PROJECT_FILE$" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode/practice/8/plain/Java/first/.idea/$PROJECT_FILE$" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode/practice/8/plain/Java/first/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode/practice/8/plain/Java/first/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode/practice/8/plain/Java/first/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode/practice/8/plain/Java/first/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode/practice/8/plain/Java/first/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/67.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode/practice/8/plain/Java/first/first.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../快捷键.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../快捷键.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../leetcode/practice/7/advance/Java/first/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../leetcode/practice/7/advance/Java/first/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="217uUsQjjocJcSbggCZnMmCMjGD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../66" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b141b357-6e6c-493d-93e0-760e167b53da" name="Default Changelist" comment="" />
+      <created>1637304465060</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637304465060</updated>
+      <workItem from="1637304466332" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1637304485074">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1637304485074" />
+  </component>
+</project>

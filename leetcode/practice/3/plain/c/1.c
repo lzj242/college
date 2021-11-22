@@ -1,37 +1,80 @@
-// 给定一个整数数组 nums?和一个整数目标值 target，请你在该数组中找出 和为目标值 target? 的那?两个?整数，并返回它们的数组下标。
-//     你可以假设每种输入只会对应一个答案。但是，数组中同一个元素在答案里不能重复出现。
-//     你可以按任意顺序返回答案。
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 int main()
 {
-    int target;
-    int n;
-    int first, second;
-    scanf("%d",&n);
-    int nums[n];
-    for (int i = 0; i < n; i++)
+    int resolve(char *str);
+    char *substr(char *str1, int begin, int end);
+
+    char c1[288];
+    gets(c1);
+    printf("%d", resolve(c1));
+}
+int resolve(char *str)
+{
+    char *substr(char *str1, int begin, int end);
+    int maxlength = 1, length = 0, x = 0, y = 0, j, k;
+    int n = strlen(str);
+    char *p;
+    if (n == 0 || str == NULL)
     {
-        scanf("%d", &nums[i]);
+        return 0;
     }
-    scanf("%d", &target);
-    for (int k = 0; k < n; k++)
+    else
     {
-        /* code */
-        for (int j = 0; j < n; j++)
+        for (j = 0; j <= n; j++)
         {
-            /* code */
-            if (nums[j] != -1 && nums[k] != -1)
+            for (k = 0; k <= n; k++)
             {
-                if (k != j && (nums[j] + nums[k] == target))
+                if (k > j)
                 {
-                    first = k > j ? k : j;
-                    second = k < j ? k : j;
-                    nums[j] = -1;
-                    nums[k] = -1;
-                    printf("[%d %d]\n", second, first);
+                    int w=0;
+                    p = substr(str, j, k);
+                    for (x = 0; x < strlen(p); x++)
+                    {
+                        for (y = 0; y != x && y < strlen(p); y++)
+                        {
+                            if (p[x] == p[y])
+                            {
+                                w++;
+                                break;
+                            }
+                        }
+                    }
+                    int q=strlen(p);
+                    if (w==0)
+                    {
+                        length = strlen(p);
+                        if (maxlength < length)
+                        {
+                            maxlength = length;
+                        }
+                    }
                 }
             }
         }
+        return maxlength;
     }
+}
+char *substr(char *str1, int StartPostion, int SubstringLength)
+{
+    int stringlen = 0;
+    int i = 0;
+    int x = 0;
+    char *tmp;
+    stringlen = strlen(str1);
+    tmp = (char *)malloc(sizeof(char) * (SubstringLength + 1));
+    if ((StartPostion < 0) || (SubstringLength <= 0) || (stringlen == 0) || (StartPostion >= stringlen))
+    {
+
+        strcpy(tmp, "\0");
+        return tmp;
+    }
+    for (i = StartPostion; ((i < stringlen) && (x < SubstringLength)); i++)
+    {
+        tmp[x] = str1[i];
+        x++;
+    }
+    tmp[x] = '\0';
+    return tmp;
 }

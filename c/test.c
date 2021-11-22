@@ -1,12 +1,19 @@
 #include <stdio.h>
+#include <math.h>
 int main()
 {
-    int n;
-    int i=0;
-    for (int n = 100; n >=0; n--)
+    double n, d, x;
+    int j;
+    n = pow(10, 100);
+    d = (int)n % 10;
+    x = n / 10;
+    j = x - (d * 5);
+    if (j % 17 == 0)
     {
-        i++;
+        printf("1\n");
     }
-    i++;
-        printf("%d\n", i); //Êä³ö´ð°¸
+    else
+    {
+        printf("0\n");
     }
+}

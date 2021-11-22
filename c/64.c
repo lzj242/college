@@ -24,7 +24,6 @@ int main()
             for (int m = s - 1; m >= 0; m--)
             {
                 d = d + (n * (c[m] - '0'));
-
                 n *= 10;
             }
 

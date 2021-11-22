@@ -1,75 +1,61 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
+#include <math.h>
 int main()
 {
-    int resolve(char *s);
-    char s[15];
-    gets(s);
-    printf("%d", resolve(s));
-}
-int resolve(char *s)
-{
-    int sum = 0;
-    int count = strlen(s);
-    for (int i = 0; i < count; i++)
+    long int n;
+    scanf("%ld", &n);
+
+    if (n >= pow(2, 31) || n <= -1 * pow(2, 31))
     {
-        /* code */
-        if (s[i] == 'I')
-        {
-            if (s[i + 1] != 'V' && s[i + 1] != 'X')
-            {
-                sum++;
-            }
-            else
-            {
-                sum--;
-            }
-        }
-        else if (s[i] == 'V')
-        {
-            /* code */
-            sum += 5;
-        }
-        else if (s[i] == 'X')
-        {
-            /* code */
-            if (s[i + 1] != 'L' && s[i + 1] != 'C')
-            {
-                sum += 10;
-            }
-            else
-            {
-                sum -= 10;
-            }
-        }
-        else if (s[i] == 'L')
-        {
-            /* code */
-            sum += 50;
-        }
-        else if (s[i] == 'C')
-        {
-            /* code */
-            if (s[i + 1] != 'D' && s[i + 1] != 'M')
-            {
-                sum += 100;
-            }
-            else
-            {
-                sum -= 100;
-            }
-        }
-        else if (s[i] == 'D')
-        {
-            /* code */
-            sum += 500;
-        }
-        else if (s[i] == 'M')
-        {
-            /* code */
-            sum += 1000;
-        }
+        printf("³ö´í");
     }
-    return sum;
-    // I=1 ', ' V =5', ' X=10 ', ' L=50', ' C =100', ' D=500 ', M=1000
+    else
+    {
+        int t = 1, i = 0, s;
+        int a[32];
+        int j = 1;
+        s = abs(n);
+        long int x = 0;
+        long int b = 1;
+        while (1)
+        {
+            t = s % 10;
+            a[i] = t;
+            i++;
+            s = (s - t) / 10;
+            if (s == 0)
+            {
+                break;
+            }
+        }
+        if (n < 0)
+        {
+            j = -1;
+        }
+        for (int d = i - 1; d >= 0; d--)
+        {
+            /* code */
+            if (a[d] != 0)
+            {
+                x += a[d] * b;
+            }
+            if (x > pow(2, 31) || x < -1 * (pow(2, 31)))
+            {
+                printf("³ö´í");
+                break;
+            }
+            if ((b * 10) > pow(2, 31))
+            {
+                break;
+            }
+            else
+            {
+                b *= 10;
+            }
+        }
+        x = x * j;
+        printf("%d", x);
+    }
 }

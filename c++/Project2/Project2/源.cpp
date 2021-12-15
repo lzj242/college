@@ -1,7 +1,7 @@
 #include<vector>
 #include <iostream>
 using namespace std;
-int main()
+int pvector()
 {
 	int n = 7, m = 8;
 	vector<int>nums(n);

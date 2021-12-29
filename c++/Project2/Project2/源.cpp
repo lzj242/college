@@ -3,7 +3,8 @@
 using namespace std;
 int pvector()
 {
-	int n = 7, m = 8;
+	int n , m = 8;
+	n = scanf_s("%d", &n);
 	vector<int>nums(n);
 	bool q=true;
 	cout << q<<"\n";

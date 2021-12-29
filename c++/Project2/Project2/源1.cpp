@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main()
+void pstring ()
 {
 	string str;
 	str = "abc";

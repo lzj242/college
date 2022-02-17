@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<string.h>
+#include <string.h>
 int main()
 {
     int resolve(int coins[], int count);
@@ -18,20 +18,19 @@ int main()
 }
 int resolve(int coins[], int amount)
 {
-    int mincoin=0;
+    int mincoin = 0;
     for (int i = 0; i < strlen(coins); i++)
     {
         /* code */
-        if(mincoin<)
+        if (mincoin <)
     }
-    
-    int min=0;
-    if (amount == 0 || strlen(coins)==0)
+
+    int min = 0;
+    if (amount == 0 || strlen(coins) == 0)
     {
         return 0;
     }
     else
     {
-        
     }
 }

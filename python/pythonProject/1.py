@@ -15,4 +15,6 @@ if bmi >= 29.9:
     print("你的bmi指数:" + str(bmi))
     print("肥胖")
 print(type(bmi))
-print(0.1+0.2)
+print(0.1 + 0.2)
+name = input("我的名字：")
+print('wode '+name)

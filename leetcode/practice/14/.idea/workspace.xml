@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:college" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="846e7d76-afb5-4f1d-95d6-84c7a7673f0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../leetcode/practice/387/plain/java/src/PackAge/ClassOne.java" afterDir="false" />
+    <list default="true" id="4e0a0bd8-052f-419d-b4a9-14f98a9fbeca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../387/plain/java/src/PackAge/ClassOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../c/test.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../../c/test.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../java/practice/65/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../java/practice/65/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../python/pythonProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/pythonProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../python/pythonProject/1.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/pythonProject/1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../python/pythonProject/2.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../python/pythonProject/2.py" afterDir="false" />
@@ -34,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="217ub2QAlR2JHxr1loEBMLVTLOG" />
+  <component name="ProjectId" id="27n54I0wMHm0bMOa75X7MIxWwDh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,42 +29,30 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../60" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test/A" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="846e7d76-afb5-4f1d-95d6-84c7a7673f0d" name="Default Changelist" comment="" />
-      <created>1637304514026</created>
+      <changelist id="4e0a0bd8-052f-419d-b4a9-14f98a9fbeca" name="Default Changelist" comment="" />
+      <created>1649942816063</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1637304514026</updated>
-      <workItem from="1637304515279" duration="38000" />
-      <workItem from="1649942782640" duration="7000" />
+      <updated>1649942816063</updated>
+      <workItem from="1649942817556" duration="43000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1649942789370">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1649942860112">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1649942789370" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1649942860112" />
   </component>
 </project>

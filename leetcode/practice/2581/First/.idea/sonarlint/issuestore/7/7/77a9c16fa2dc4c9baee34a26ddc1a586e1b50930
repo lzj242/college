@@ -1,0 +1,5 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(±€õ›ÿÿÿÿÿ
+F
+java:S1481"+Remove this unused "string" local variable.(èò²Éıÿÿÿÿ
+C	java:S108")Either remove or fill this block of code.(•§„üÿÿÿÿ

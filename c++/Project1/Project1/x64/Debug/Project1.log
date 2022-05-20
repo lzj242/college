@@ -1,0 +1,7 @@
+﻿  源.c
+C:\Users\HUAWEI\code\college\college\code\c++\Project1\Project1\源.c(5,2): warning C4013: “scanf”未定义；假设外部返回 int
+C:\Users\HUAWEI\code\college\college\code\c++\Project1\Project1\源.c(7,2): warning C4013: “printf”未定义；假设外部返回 int
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/FORCE”规范)
+源1.obj : warning LNK4006: main 已在 源.obj 中定义；已忽略第二个定义
+源.obj : error LNK2019: 无法解析的外部符号 scanf，函数 main 中引用了该符号
+C:\Users\HUAWEI\code\college\college\code\c++\Project1\x64\Debug\Project1.exe : fatal error LNK1120: 1 个无法解析的外部命令

@@ -10,6 +10,21 @@ import java.util.Scanner;
 import static java.lang.Integer.MAX_VALUE;
 import static java.lang.Integer.MIN_VALUE;
 
+
+class TreeNode {
+    public int val;
+    public TreeNode leftNode;
+    public TreeNode rightNode;
+
+    TreeNode() {
+    };
+
+    TreeNode(int val, TreeNode leftNode, TreeNode rightNode) {
+        this.val = val;
+        this.leftNode = leftNode;
+        this.rightNode = rightNode;
+    }
+}
 public class ClassOne {
     public static void main(String[] args) {
         ClassOne classOne = new ClassOne();

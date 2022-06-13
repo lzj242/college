@@ -1,0 +1,32 @@
+
+K
+java:S3740a"/Provide the parametrized type for this generic.(›Ó·78Î­–Å”0
+L
+java:S3740p"/Provide the parametrized type for this generic.(™Öİå8İ­–Å”0
+{
+java:S2293\"YReplace the type specification in this constructor call with the diamond operator ("<>").(³ÿ±îÿÿÿÿÿ8í­–Å”0
+{
+java:S2293k"YReplace the type specification in this constructor call with the diamond operator ("<>").(³ÿ±îÿÿÿÿÿ8ı­–Å”0
+v
+java:S2293t"YReplace the type specification in this constructor call with the diamond operator ("<>").(ßóü‚8ÿ­–Å”0
+r	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ò«Ê¯ûÿÿÿÿ8¶É·Å”0
+r	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ×Æ½ÿÿÿÿÿ8ƒ®–Å”0
+r	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÙĞÛ±ùÿÿÿÿ8„®–Å”0
+r	java:S1179"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úä¨£üÿÿÿÿ8†®–Å”0
+f	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(÷õªé
+f	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(í‚
+k	java:S117<"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ›Öóşÿÿÿÿ
+k	java:S117="QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äõ¹áıÿÿÿÿ
+f	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(şÄ¶
+j
+java:S1104"OMake val a static final constant or non-public and provide accessors if needed.(Á½¦ÿÿÿÿÿ
+j
+java:S1104"TMake leftNode a static final constant or non-public and provide accessors if needed.(÷”ï×
+k
+java:S1104"UMake rightNode a static final constant or non-public and provide accessors if needed.(ôÄ¼Œ
+7
+java:S1116"Remove this empty statement.(Åñ­õşÿÿÿÿ
+m
+java:S1149t"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ßóü‚8í¯–Å”0
+8
+java:S3626r"Remove this redundant jump.(ûÁİ…8œ°–Å”0

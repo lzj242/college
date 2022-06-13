@@ -1,0 +1,15 @@
+
+e
+java:S1104"OMake val a static final constant or non-public and provide accessors if needed.(Ô¸úÏ
+j
+java:S1104"TMake leftNode a static final constant or non-public and provide accessors if needed.(÷”ï×
+k
+java:S1104"UMake rightNode a static final constant or non-public and provide accessors if needed.(ôÄ¼Œ
+S
+java:S2589F"8Remove this expression which always evaluates to "false"(ƒÄ˜áùÿÿÿÿ
+S
+java:S2589F"8Remove this expression which always evaluates to "false"(ƒÄ˜áùÿÿÿÿ
+7
+java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ
+m
+java:S3776%"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(–¤‰üÿÿÿÿ

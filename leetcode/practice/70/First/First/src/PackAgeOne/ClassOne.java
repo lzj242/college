@@ -21,17 +21,24 @@ public class ClassOne {
         int result = 1;
         int j = n / 2;
         for (int i = 1; i <= j; i++) {
-            result += fact(n - i) / (fact(n - i - i) * fact(i));
-            System.out.println(result);
+            result += simple(n - i, n - (2 * i)) / fact(i);
         }
         return result;
     }
 
-    public int fact(int n) {
+    public double fact(int n) {
         if (n == 1 || n == 0) {
             return 1;
         } else {
             return n * fact(n - 1);
         }
+    }
+
+    public double simple(int j, int k) {
+        double result = 1;
+        for (int i = k + 1; i <= j; i++) {
+            result *= i;
+        }
+        return result;
     }
 }

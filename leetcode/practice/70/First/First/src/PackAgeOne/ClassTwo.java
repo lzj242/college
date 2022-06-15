@@ -20,6 +20,12 @@ public class ClassTwo {
     int resolve(int n) {
         int result = 0;
         int j = n / 2;
+        int k = n % 2;
+        for (int i = k; i < n; i++) {
+            for(int t=j;j>=0;j--){
+
+            }
+        }
         return result;
     }
 }

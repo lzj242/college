@@ -1,6 +1,5 @@
-package PackAge;
 
-/**
+/*
  * @Author : 墨宣
  * @Time : 2022/6/13 21:16
  * @File : ClassOne
@@ -42,49 +41,40 @@ public class ClassOne {
         for (int i = 0; i < q.length; i++) {
             q[i] = scanner.nextInt();
         }
-        test1.inOrder(test1.CreateNode(p));
-        test1.inOrder(test1.CreateNode(q));
-        System.out.println(test1.resolve(test1.CreateNode(p), test1.CreateNode(q)));
+        System.out.println(test1.resolve(test1.CreateNode(p,0), test1.CreateNode(q,0)));
         scanner.close();
     }
 
-    public TreeNode CreateNode(int[] arr) {
-        if (arr == null || arr.length == 0) {
-            return null;
+    public TreeNode CreateNode(int[] arr,int index) {
+        TreeNode treeNode = null;
+        if (index < arr.length) {
+            treeNode = new TreeNode(arr[index]);
+            // 对于顺序存储的完全二叉树，如果某个节点的索引为index，其对应的左子树的索引为2*index+1，右子树为2*index+1
+            treeNode.left = CreateNode(arr, 2 * index + 1);
+            treeNode.right = CreateNode(arr, 2 * index + 2);
         }
-        TreeNode node = new TreeNode();
-        if (count < arr.length) {
-            // 如果二叉树数据空值正确，此判断可以省略
-            node.val = arr[count++];
-            if (node.val == 0) {
-                return null;
-            } else {
-                node.left = CreateNode(arr);
-                node.right = CreateNode(arr);
-            }
-        }
-        return node;
+        return treeNode;
     }
 
     public boolean resolve(TreeNode p, TreeNode q) {
         if (p == null && q == null) {
-            //如果比到此时这两个节点都为空，证明到此时是都相同的
+            // 如果比到此时这两个节点都为空，证明到此时是都相同的
             return true;
         } else if (p != null && q != null) {
-            //比较这个值是否相等
+            // 比较这个值是否相等
             if (p.val != q.val) {
                 return false;
             }
-            //左边
+            // 左边
             if (!resolve(p.left, q.left)) {
                 return false;
             }
-            //右边
+            // 右边
             if (!resolve(p.right, q.right)) {
                 return false;
             }
             return true;
-        } else {//如果是一个为空一个不为空肯定两棵二叉树就是不同的
+        } else {// 如果是一个为空一个不为空肯定两棵二叉树就是不同的
             return false;
         }
     }

@@ -44,7 +44,6 @@ public class ClassOne {
         System.out.println(test1.resolve(test1.CreateNode(p,0), test1.CreateNode(q,0)));
         scanner.close();
     }
-
     public TreeNode CreateNode(int[] arr,int index) {
         TreeNode treeNode = null;
         if (index < arr.length) {
